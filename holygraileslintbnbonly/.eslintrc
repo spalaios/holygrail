@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "rules": {
+    "no-unused-vars": [1],
+    "class-methods-use-this": ["off", { "exceptMethods": ["render"] }]
+  },
+  "extends": ["airbnb-base"],
+  "env": {
+    "browser": true
+  }
+}
